@@ -19,3 +19,42 @@ Grundlage für die Demo sind die synthetischen Kundendaten PCS dFashion, welche 
 - [ ] Verknüpfen der PCS dFashion, Schulferien und Wetterdaten
 - [ ] Analyse 2: Durchführung eines AutoML (Gradient Boosted Decision Tree (Regression)) auf Umsatz zur Identifikation von Einflussfaktoren; Ausgabe als Bericht
 - [ ] Vorgehensweise, Methodik und Best Practices festhalten; Präsentation in Github über SAP Business Application Studio?
+
+## SAP Business Application Studio
+SAP Business Application Studio ist technisch eine angepasste Version von [code-server](https://github.com/coder/code-server) und basiert technisch auf VSCode von Microsoft. Mit der Umstellung von [Eclipse Theia](https://theia-ide.org/) in Q4.2022 ergeben sich einige technische Vorteile in der Anwendung.
+* Offenes VSCode Extension Ökosystem, ergänzt um öffentliche und nicht-öffentliche SAP Extensions 
+* Python 3.9.2 (Q1.2023) vorinstalliert 
+
+### Vorbereitung SAP Business Application Studio
+#### Installation Python Package Index (PyPI)
+Open a new Terminal and install PyPI with following statements. 
+```shell
+cd ~
+curl https://bootstrap.pypa.io/get-pip.py > get-pip.py && python3 get-pip.py && echo "export PATH=/home/user/.local/bin:$PATH" >> .bashrc && source ~/.bashrc
+```
+
+#### Installation Requirements
+Open a new Terminal and install the Libraries with the following statement.
+```shell
+pip install -r requirements.txt
+```
+
+#### Einbindung Environment Variable (.env)
+Create a local environment variable having the following structure.
+*The credentials can be viewed in the hdi_heisights_dev|prod service for this bound application.*
+```json
+{
+    "host":"",
+    "port":443,
+    "user":"",
+    "password":"",
+    "schema":""
+}
+```
+
+### Deployment Options
+#### No route mapping, no staging and no starting
+```shell
+cf push --no-route --no-start
+```
+
