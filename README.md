@@ -29,8 +29,7 @@ SAP Business Application Studio ist technisch eine angepasste Version von [code-
 #### Installation Python Package Index (PyPI)
 Open a new Terminal and install PyPI with following statements. 
 ```shell
-cd ~
-curl https://bootstrap.pypa.io/get-pip.py > get-pip.py && python3 get-pip.py && echo "export PATH=/home/user/.local/bin:$PATH" >> .bashrc && source ~/.bashrc
+cd ~ && curl https://bootstrap.pypa.io/get-pip.py > get-pip.py && python3 get-pip.py && echo "export PATH=/home/user/.local/bin:$PATH" >> .bashrc && source ~/.bashrc
 ```
 
 #### Installation Requirements
