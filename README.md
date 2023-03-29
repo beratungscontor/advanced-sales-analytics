@@ -8,6 +8,11 @@ Grundlage für die Demo sind die synthetischen Kundendaten PCS dFashion, welche 
 * SAP Datasphere für das Speichern und Berechnen von Daten auf einer Datenbank (SAP HANA Cloud) innerhalb eines Spaces
 * SAP Business Application Studio für das Sammeln, Auswerten und Analysieren von Daten als Python-Skripte oder Jupyter Notebooks; Ein Vorteil ist die IP-Freigabe des SAP Business Application Studios zur geschützten Auswertung
 
+Insgesamt werden über ein Cloud Foundry Space drei Szenarien abgebildet:
+* Python SAP Datasphere CF-Task  - Einplanbarer Task, welcher Daten aus einer beliebigen Quelle nach SAP Datasphere lädt.
+* Python Data Streamlit Application - Standard Dashboard mit Daten aus einer SAP HANA Cloud und/oder BW Query; mit einer Möglichkeit der Dateneingabe.
+* Jupyter Notebooks Analytics - Standardanalysen und Einflussfaktoren auf den Sales
+
 ## Vorgehensweise
 - [X] PCS dFashion Daten in den Space buAAP laden (BW/4HANA -> SAP HANA Cloud (SDA) -> Remote Tabelle)
 - [X] Schulferien (DE) Daten in den Space buAAP laden (Externe Daten (SAP HANA) -> Datenfluss -> Tabelle)
