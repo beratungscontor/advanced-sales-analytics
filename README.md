@@ -31,6 +31,12 @@ SAP Business Application Studio ist technisch eine angepasste Version von [code-
 * Python 3.9.2 (Q1.2023) vorinstalliert 
 
 ### Vorbereitung SAP Business Application Studio
+---
+**HINWEIS**
+
+In der neusten Version ist bereits PyPi installiert, so dass die Installation nicht mehr notwendig ist. 
+
+---
 #### Installation Python Package Index (PyPI)
 Open a new Terminal and install PyPI with following statements. 
 ```shell
