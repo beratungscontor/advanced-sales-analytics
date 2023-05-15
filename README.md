@@ -45,7 +45,7 @@ pip install -r requirements.txt
 
 #### Einbindung Environment Variable (.env)
 Create a local environment variable having the following structure.
-*The credentials can be viewed in the hdi_heisights_dev|prod service for this bound application.*
+*The credentials can be viewed in the hdi service for this bound application.*
 ```json
 {
     "host":"",
