@@ -1,0 +1,3 @@
+python-dotenv==1.0.0
+hana_ml==2.16.23060100
+shapely
