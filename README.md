@@ -3,6 +3,8 @@ Diese Demo wurde im Zuge der 1. beratungscontor Data & Analytics Summit vorberei
 
 Demo einer Advanced Sales Analytics mit SAP Datasphere und SAP Business Application Studio in der SAP Business Technology Platform (Cloud Foundry) unter Verwendung dieses Github Repository.
 
+![Technologie Übersicht](images/technology_overview.png "Technologie Übersicht")
+
 Es soll eine Sales Analyse auf Verkaufsdaten ausgeführt werden. Dabei ist es das Ziel, Muster, Zusammenhänge, Auswirkungen und Trends innerhalb des Umsatzes zu identifizieren und zu belegen bzw. zu wiederlegen.
 
 Die Ergebnisse einer Analyse können in einen Ordner als Analyseprojekt zusammengefasst werden. Die Ergebnisse sollten transparent und offen sein, so dass andere Teams nicht davon profitieren können, sich austauschen können und vor allem nicht doppelt oder mehrfach die gleichen grundlegenden Analysen durchführen müssen.
@@ -17,7 +19,7 @@ Insgesamt werden über ein Cloud Foundry Space drei Szenarien abgebildet:
 * (tbd) Python Data Streamlit Application - Standard Dashboard mit Daten aus einer SAP HANA Cloud und/oder BW Query; mit einer Möglichkeit der Dateneingabe.
 * Jupyter Notebooks Analytics - Standardanalysen und Einflussfaktoren auf den Sales
 
-## Vorgehensweise
+## 🏃 Vorgehensweise
 - [X] Anlegen eines Github Repositories beratungcontor/advanced-sales-analytics
 - [X] Vorbereiten eine Development Spaces im SAP Business Application Studio mit dem Github Repository, sowie Environment Variables für den Zugriff auf SAP Datasphere
 - [X] PCS dFashion Daten über den Space PCS_INTEGRATION laden und in den Space buAAP freigeben (BW/4HANA -> SAP HANA Cloud (SDA) -> Remote Tabelle -> View)
@@ -28,7 +30,7 @@ Insgesamt werden über ein Cloud Foundry Space drei Szenarien abgebildet:
 - [ ] Verknüpfen der PCS dFashion Wetterdaten
 - [ ] Analyse 3: Durchführung eines AutoML (Gradient Boosted Decision Tree (Regression)) auf Umsatz zur Identifikation von Einflussfaktoren; Ausgabe als Bericht
 
-## SAP Business Application Studio
+## 🧑‍💻 SAP Business Application Studio
 SAP Business Application Studio ist technisch eine angepasste Version von [code-server](https://github.com/coder/code-server) und basiert technisch auf VSCode von Microsoft. Mit der Umstellung von [Eclipse Theia](https://theia-ide.org/) in Q4.2022 ergeben sich einige technische Vorteile in der Anwendung.
 * Offenes VSCode Extension Ökosystem, ergänzt um öffentliche und nicht-öffentliche SAP Extensions 
 * Python 3.9.2 (Q2.2023) vorinstalliert 
@@ -75,7 +77,7 @@ Erstelle eine lokale Umgebungsvariable/Environment Variable unter /home/users/pr
 }
 ```
 
-#### Fehler: Es kann keine Verbindung zum SAP Datasphere Space hergestellt werden (Connection failed (RTE:[89013] Socket closed by peer)
+#### 🔴 Fehler: Es kann keine Verbindung zum SAP Datasphere Space hergestellt werden (Connection failed (RTE:[89013] Socket closed by peer)
 Für die Verwendung des Business Application Studio gegen SAP Datasphere muss dieses in der Firewall mit einer IP freigegeben werden.
 Unter System > Konfiguration > IP-Erlaubtliste > Vertrauenswürdige IPs kann die IP-Adresse des Business Application Studios hinzugefügt werden. 
 
