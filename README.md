@@ -1,5 +1,5 @@
 # Advanced Sales Analytics
-Diese Demo wurde im Zuge der 1. beratungscontor Data & Analytics Summit vorbereitet und präsentiert.
+Diese Demo wurde im Zuge des 1. beratungscontor Data & Analytics Summit vorbereitet und präsentiert.
 
 Demo einer Advanced Sales Analytics mit SAP Datasphere und SAP Business Application Studio in der SAP Business Technology Platform (Cloud Foundry) unter Verwendung dieses Github Repository.
 
