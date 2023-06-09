@@ -26,9 +26,9 @@ Insgesamt werden über ein Cloud Foundry Space drei Szenarien abgebildet:
 - [X] Analyse 1: Statistisches Profil der PCS dFashion (Tabelle = stat. Dataset?); ggf. Ableitung eines Datasets für weitere Analysen (ipynb-analytics)
 - [X] Analyse 2: Je nach Ergebnise aus Analyse 1 eine erweiterte Analyse durchführen.
 - [ ] (tbd) Python-Skript als Cloud Foundry Backend Service zum Laden von Wetterdaten in den SAP Datasphere Space (py-dsp-task)
-- [ ] Wetterdaten (DE) Daten in den Space buAAP laden (Externe Daten (SAP HANA) -> Datenfluss -> Tabelle)
-- [ ] Verknüpfen der PCS dFashion Wetterdaten
-- [ ] Analyse 3: Durchführung eines AutoML (Gradient Boosted Decision Tree (Regression)) auf Umsatz zur Identifikation von Einflussfaktoren; Ausgabe als Bericht
+- [X] Wetterdaten (DE) Daten in den Space buAAP laden (Externe Daten (SAP HANA) -> Datenfluss -> Tabelle)
+- [X] Verknüpfen der PCS dFashion Wetterdaten (in SAP Datasphere)
+- [X] Analyse 3: Durchführung eines AutoML (Gradient Boosted Decision Tree (Regression)) auf Umsatz zur Identifikation von Einflussfaktoren; Ausgabe als Bericht
 
 ## 🧑‍💻 SAP Business Application Studio
 SAP Business Application Studio ist technisch eine angepasste Version von [code-server](https://github.com/coder/code-server) und basiert technisch auf VSCode von Microsoft. Mit der Umstellung von [Eclipse Theia](https://theia-ide.org/) in Q4.2022 ergeben sich einige technische Vorteile in der Anwendung.
