@@ -24,7 +24,7 @@ Insgesamt werden über ein Cloud Foundry Space drei Szenarien abgebildet:
 - [X] Vorbereiten eine Development Spaces im SAP Business Application Studio mit dem Github Repository, sowie Environment Variables für den Zugriff auf SAP Datasphere
 - [X] PCS dFashion Daten über den Space PCS_INTEGRATION laden und in den Space buAAP freigeben (BW/4HANA -> SAP HANA Cloud (SDA) -> Remote Tabelle -> View)
 - [X] Analyse 1: Statistisches Profil der PCS dFashion (Tabelle = stat. Dataset?); ggf. Ableitung eines Datasets für weitere Analysen (ipynb-analytics)
-- [ ] Analyse 2: Je nach Ergebnise aus Analyse 1 eine erweiterte Analyse durchführen.
+- [X] Analyse 2: Je nach Ergebnise aus Analyse 1 eine erweiterte Analyse durchführen.
 - [ ] (tbd) Python-Skript als Cloud Foundry Backend Service zum Laden von Wetterdaten in den SAP Datasphere Space (py-dsp-task)
 - [ ] Wetterdaten (DE) Daten in den Space buAAP laden (Externe Daten (SAP HANA) -> Datenfluss -> Tabelle)
 - [ ] Verknüpfen der PCS dFashion Wetterdaten
