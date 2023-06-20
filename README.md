@@ -85,7 +85,7 @@ Die IP-Adresse ist abhängig von der Region des Business Application Studios und
 
 Nicht vergessen in SAP Datasphere die Liste zu sichern und anschließend bis zu 5 Minuten abzuwarten.
 
-### Deployment Options
+### Deployment Options (tbd)
 #### No route mapping, no staging and no starting
 ```shell
 cf push --no-route --no-start
